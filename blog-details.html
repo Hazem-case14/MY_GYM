@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYGYM</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link href="themify-icons/themify-icons.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        .nav-link {
+            color: black !important;
+        }
+
+        .fa-magnifying-glass {
+            color: black;
+        }
+
+        @media (max-width:992px) {
+            .nav-link {
+                color: white !important;
+            }
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <!-- START Nav -->
+
+    <nav class="navbar navbar-expand-lg bg-light py-2">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span style="color: black;">MY</span><span
+                    style="color: #f34e3a;">GYM</span></a>
+            <i class=" fa-solid fa-magnifying-glass d-lg-none ms-auto mx-3"></i>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span>MENU</span><i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav  ms-auto">
+                    <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    <a class="nav-link" href="about.html">about</a>
+                    <a class="nav-link" href="schedule.html">Schedule</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="blog.html">Blog</a>
+                    <a class="nav-link" href="blog-details.html" style="color: #f34e3a !important;">Blog details</a>
+                    <a class="nav-link" href="contact.html">contact</a>
+                </div>
+                <i class=" fa-solid fa-magnifying-glass " id="main-search"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- END Nav -->
+
+
+    <!-- START About path -->
+    <section class="path">
+        <div class="container">
+            <h1 class="about-header text-uppercase">Our Blog</h1>
+            <p><a href="home.html" class="me-1">HOME</a> / <span class="ms-1">Blogs</span></p>
+        </div>
+    </section>
+    <!-- END About path -->
+
+
+    <div class="container">
+
+
+        <section class="py-5">
+            <div class="row g-5">
+
+                <!-- START blog timeline -->
+                <div class="col-lg-8 col-md-12">
+
+                    <div class="blog-items">
+
+                        <div class="post">
+                            <img src="images/blog-2.jpg" class="img-fluid w-100" alt="">
+                            <div class="stats my-2 mb-3 d-flex flex-row justify-content-between">
+                                <div class="stats-text">
+                                    <p class="my-auto mt-1"><span style="color: #f34e3a;">Adam</span> - Dec 29, 2018</p>
+                                </div>
+                                <div class="icons d-flex flex-row align-items-center">
+                                    <i class=" fa fa-tag "></i>
+                                    <p class="my-auto">Treatment</p>
+                                    <i class="ms-3 fa-solid fa-comment"></i>
+                                    <p class="my-auto">Cycling</p>
+                                </div>
+
+                            </div>
+                            <a href="#" class="text-decoration-none">Are Crunches the Best Workout for Abs?</a>
+
+                            <p class="post-caption">It’s a moment many aspiring marathoners fantasize about as they
+                                finish their umpteenth long training run: The few weeks leading up to the race when a
+                                training program calls for less running and more recovery, otherwise known as the taper.
+                                As triathlete and Greatist expert <span class="text-decoration-underline">Terra
+                                    Castro</span> explains, tapering allows your body to
+                                “repair, replenish, and regroup” in preparation for race day. But even though the break
+                                from an arduous training schedule can be appealing, it can also seem counterintuitive
+                                and for less running and more recovery. But a trustworthy taper—which is simple to
+                                execute with the guide below and the help of our experts—will have you healthy and
+                                strong for race day.</p>
+                        </div>
+
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="w-100 mx-auto">
+                                <a target="_blank"
+                                    href="https://www.youtube.com/watch?v=A3TKxux17ZA&list=RDA3TKxux17ZA&start_radio=1">
+                                    <div class="blog-video video">
+                                        <div>
+                                            <div>
+                                                <i class="fa-solid fa-play"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <!-- START our-features  -->
+                            <div class="our-features">
+                                <h5 class="me-auto">What We Can Talk About</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="fa-solid fa-check"></i>Mauris molestie lectus in irdiet auctor.</li>
+                                    <li><i class="fa-solid fa-check"></i>Dictum purus at blandit molestie.</li>
+                                    <li><i class="fa-solid fa-check"></i>Neque non fermentum suscipit.</li>
+                                    <li><i class="fa-solid fa-check"></i>Donec id dui ac massa malesuada.</li>
+                                    <li><i class="fa-solid fa-check"></i>In sit amet sapien quis orci maximus.</li>
+                                    <li><i class="fa-solid fa-check"></i>Vestibulum rutrum diam vel eros tristique.</li>
+                                    <li><i class="fa-solid fa-check"></i>Vestibulum tempus neque at purus.</li>
+                                    <li><i class="fa-solid fa-check"></i>Mauris nec mi nec eros viverra.</li>
+                                </ul>
+                            </div>
+                            <!-- END our-features  -->
+
+                        </div>
+                    </div>
+
+                    <!-- START our tips -->
+
+                    <div class="our-tips my-4">
+                        <h4>Pitfalls to Avoid: In Taper We Trust</h4>
+                        <p>The dueling temptations to rest too much and not rest enough can make for a tricky taper—it
+                            may feel strange to be running so much less than you have been. Castro recommends ignoring
+                            both “phantom pains” and “sneaky doubts.” Continue to trust the taper plan you put in place,
+                            knowing that reduced mileage, maintained intensity, and <span
+                                class="text-decoration-underline">self-care</span> are time-honored and
+                            <span class="text-decoration-underline">science-approved</span> ways to prepare for a race.
+                            Castro also warns against trying anything
+                            unfamiliar during this period, like a new pair of sneakers or a new workout group and
+                            routine. “Keep things simple and stress free in those taper weeks,” she says.
+                        </p>
+
+                        <div class="my-5 blog-quote">
+                            <i class="fa fa-quote-right"></i>
+                            <p>You can't connect the dots looking forward; you can only
+                                connect them looking
+                                backwards. So you have to trust that the dots will somehow connect in your future. You
+                                have
+                                to trust in something your gut, destiny, life, karma, whatever. This approach has never
+                                let
+                                me down, and it has made all the difference in my life."</p>
+                        </div>
+
+                        <div class="blog-details-info d-flex justify-content-between align-items-center">
+                            <div class="tags d-flex">
+                                <a href="#" class="text-decoration-none">Cycling</a>
+                                <a href="#" class="text-decoration-none">Building</a>
+                                <a href="#" class="text-decoration-none">Trianer</a>
+                            </div>
+                            <div class="blog-details-social">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                                <a href="#"><i class="fa fa-wifi"></i></a>
+                                <a href="#"><i class="fa fa-heart"></i></a>
+                            </div>
+                        </div>
+                        <hr class="my-3">
+                    </div>
+
+                    <!-- END our tips -->
+
+                    <div class="comments my-5">
+                        <h1>2 Comments</h1>
+
+                        <div class="comment-1">
+                            <div class="comment-img">
+                                <img src="images/avatar-1.png" alt="">
+                            </div>
+                            <div class="comment-content">
+                                <div class="d-flex justify-content-between">
+                                    <h6>27 Aug 2018</h6>
+                                    <button class="replay-btn text-uppercase">replay</button>
+                                </div>
+                                <h4>Brandon Kelley</h4>
+                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                    adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+                                    magnam.</p>
+                            </div>
+                        </div>
+
+                        <div class="comment-2">
+                            <div class="comment-img">
+                                <img src="images/avatar-2.png" alt="">
+                            </div>
+                            <div class="comment-content">
+                                <div class="d-flex justify-content-between">
+                                    <h6>27 Aug 2018</h6>
+                                    <button class="replay-btn text-uppercase">replay</button>
+                                </div>
+                                <h4>Brandon Kelley</h4>
+                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                    adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+                                    magnam.</p>
+                            </div>
+                        </div>
+                        <div class="comment-3">
+                            <div class="comment-img">
+                                <img src="images/avatar-3.png" alt="">
+                            </div>
+                            <div class="comment-content">
+                                <div class="d-flex justify-content-between">
+                                    <h6>27 Aug 2018</h6>
+                                    <button class="replay-btn text-uppercase">replay</button>
+                                </div>
+                                <h4>Brandon Kelley</h4>
+                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                    adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+                                    magnam.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- START Leave A Comment -->
+                    <div class="leave-comment-form w-75">
+                        <div class="row g-2">
+                            <div class="col-12">
+                                <h1>Leave A Comment
+                                </h1>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <input type="text" class="w-100" placeholder="Name" id="">
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <input type="email" class="w-100" placeholder="Email" id="">
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <input type="text" class="w-100" placeholder="Website" id="">
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="text" class="w-100" placeholder="Email" id="">
+                            </div>
+                            <div class="col-lg-12">
+                                <textarea name="" id="" class="w-100" placeholder="Message"></textarea>
+                            </div>
+                            <div class="col-12 mb-5 mt-4"><a href="#" class="text-decoration-none">Send Message</a></div>
+                        </div>
+                    </div>
+                    <!-- END Leave A Comment -->
+
+                </div>
+                <!-- END blog timeline -->
+
+
+
+                <!-- START side bar -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="side-bar">
+                        <div class="recent-news">
+                            <h1>Recent News</h1>
+                            <div class="news-item">
+                                <a href="#" class="text-decoration-none">The Greatist Team's Favorite Leggings With
+                                    Pockets</a>
+                                <p>Dec 22, 2018</p>
+                                <hr>
+                            </div>
+                            <div class="news-item">
+
+                                <a href="#" class="text-decoration-none">The Greatist Team's Favorite Leggings With
+                                    Pockets</a>
+                                <p>Dec 22, 2018</p>
+                                <hr>
+
+                            </div>
+                            <div class="news-item">
+
+                                <a href="#" class="text-decoration-none">The Greatist Team's Favorite Leggings With
+                                    Pockets</a>
+                                <p>Dec 22, 2018</p>
+                                <hr>
+
+                            </div>
+                            <div class="news-item">
+
+                                <a href="#" class="text-decoration-none">The Greatist Team's Favorite Leggings With
+                                    Pockets</a>
+                                <p>Dec 22, 2018</p>
+
+
+                            </div>
+                        </div>
+
+                        <!-- START categories -->
+                        <div class="categories mt-5">
+                            <h1 class="my-2">Categories</h1>
+                            <ul class="categories-list list-unstyled">
+                                <li><a href="#">Body Building</a></li>
+                                <li><a href="#">Gym Trianer</a></li>
+                                <li><a href="#">Foot Healthy</a></li>
+                                <li><a href="#">Racing Way</a></li>
+                                <li><a href="#">Cardio Class</a></li>
+                                <li><a href="#">Free Cycling</a></li>
+                            </ul>
+                        </div>
+                        <!-- END categories -->
+
+                        <!-- START popular tags -->
+                        <div class="popular-tags">
+                            <h1>Popular Tags</h1>
+                            <div class="tags">
+                                <a href="#">Cycling</a>
+                                <a href="#">Building</a>
+                                <a href="#">Trianer</a>
+                                <a href="#">Medication</a>
+                                <a href="#">Treatment</a>
+                                <a href="#">Event</a>
+                            </div>
+                        </div>
+                        <!-- END popular tags -->
+
+
+                        <div class="open-hours">
+                            <h1>Open Hours</h1>
+                            <div class="timing">
+                                <div class="text">
+                                    <p>Monday</p>
+                                    <p>07:00-17:00</p>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="timing">
+                                <div class="text">
+                                    <p>Tuesday</p>
+                                    <p>07:00-17:00</p>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="timing">
+                                <div class="text">
+                                    <p>Wednesday</p>
+                                    <p>07:00-17:00</p>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="timing">
+                                <div class="text">
+                                    <p>Thursday</p>
+                                    <p>07:00-17:00</p>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="timing">
+                                <div class="text">
+                                    <p>Friday</p>
+                                    <p>07:00-17:00</p>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="timing">
+                                <div class="text">
+                                    <p>Saturay</p>
+                                    <p>07:00-17:00</p>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="timing">
+                                <div class="text">
+                                    <p>Sunday</p>
+                                    <p>07:00-17:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- END side bar -->
+
+
+
+
+
+            </div>
+        </section>
+    </div>
+
+
+  
+   <!-- START footer -->
+<footer>
+    <!-- START upper footer -->
+    <div class="upper-footer mb-3">
+        <div class="row g-0">
+            <div class="col-lg-6 col-md-12">
+                <!-- START map -->
+                <div class="row">
+                    <div class="col-12" style="height: 560px;padding: 0;">
+                        <div class="position-relative h-100 w-100 contact-map">
+                            <iframe class="position-relative w-100 h-100"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- END map -->
+            </div>
+
+            <div class="col-lg-6 col-md-12 d-flex align-items-center">
+                <div class="footer-form w-100 h-100 d-flex">
+                    <div class="row g-2 w-75 mx-auto my-auto pt-3 d-flex align-items-center">
+                        <div class="col-12">
+                            <h1>Request A Call Back</h1>
+                            <p>Shape your body and burn fat with strength training. With the right equipment such as free weights or resistance machines.</p>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <input type="text" class="w-100" placeholder="Name" id="">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <input type="email" class="w-100" placeholder="Email" id="">
+                        </div>
+                        <div class="col-lg-12">
+                            <input type="text" class="w-100" placeholder="Email" id="">
+                        </div>
+                        <div class="col-lg-12">
+                            <textarea name="" id="" class="w-100" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-12 mb-5 mt-4">
+                            <a href="#" class="text-decoration-none px-4">Submit <i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END upper footer -->
+
+    <!-- START lower footer -->
+    <div class="lower-footer py-4 mt-2">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                <div class="lower-row col-lg-6 col-md-12 d-flex align-items-center mb-3 mb-md-0">
+                    <span>
+                        This template is made with <span style="color: #f34e3a;">Hazem Mohamed Ismail</span>
+                    </span>
+                </div>
+                <div class="lower-row col-lg-6 col-md-12 d-flex justify-content-end">
+                    <div class="rules">
+                        <p style="color: #f34e3a;" class="my-auto">Privacy Policy</p>
+                        <p class="border-p my-auto">Terms Of Service</p>
+                        <p class="my-auto">Careers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                <ul class="lower-row list-unstyled d-flex mb-0 ms-auto respon-footer">
+                    <li class="ms-3"><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="ms-3"><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="ms-3"><a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- END lower footer -->
+</footer>
+<!-- END footer -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
